@@ -1,0 +1,27 @@
+.news-posts{
+    display: flex;
+    flex-direction: column;
+}
+
+.news-posts__post{
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    padding-bottom: 25px;
+    margin: 10px 0px 10px 0px;
+    background: #C0C0C0;
+    width: 100%;
+    min-height: 85px;
+    font-size: 16px;
+}
+
+.news-posts__top{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none !important;
+    text-align: left !important;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+}

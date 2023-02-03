@@ -1,0 +1,114 @@
+.messages{
+    display: flex;
+}
+
+.messages__users{
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 225px;
+    height: 580px;
+    background: white;
+    margin-right: 10px;
+
+    border: 3.5px solid #E5E5E5;
+    border-right: 3.5px solid #82858A;
+    border-bottom: 3.5px solid #82858A;
+}
+
+.messages__block{
+    display: flex;
+    flex-direction: column;
+}
+
+.messages__area{
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    height: 535px;
+    width: 885px;
+    background: white;
+
+    border: 3.5px solid #E5E5E5;
+    border-right: 3.5px solid #82858A;
+    border-bottom: 3.5px solid #82858A;
+
+    overflow-y: auto;
+}
+
+.messages__form{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.messages__form>input{
+    width: 92%;
+    height: 35px;
+    padding: 7px;
+    font-size: 20px;
+    background: #E5E5E5;
+    resize: none;
+
+    border: 3px solid #82858A;
+}
+
+.messages__form>button{
+    width: 7%;
+    padding: 8px 17px 8px 17px;
+    margin-left: 10px;
+    background-color: #C0C0C0;
+    border: 2px solid #EEEEEE;
+    border-right: 2px solid #919191;
+    border-bottom: 2px solid #919191;
+    box-shadow: inset 1px 1px 0 0 #bdbdbd, 1.2px 0 0 0 black, 0 1.2px 0 0 black, 1px 1px 0 0 black;
+}
+
+.message__info>div{
+    margin: 5px 2px 5px 2px;
+}
+
+.message__info>div:nth-child(2){
+    font-weight: bold;
+}
+
+.message__info{
+    display: flex;
+}
+
+/**/
+
+.messages__users{
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+    overflow-y: auto;
+}
+
+.messages__users>div{
+    padding: 5px 0px 5px 10px;
+}
+
+.messages__users>div:hover{
+    background: black !important;
+    color: white !important;
+    cursor: pointer !important;
+}
+
+.message__items{
+    display: none;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+.message__items>.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+

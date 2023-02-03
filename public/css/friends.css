@@ -1,0 +1,112 @@
+.container__friends{
+    flex-direction: column;
+}
+
+.blocks{
+    display: flex;
+    flex-direction: column;
+}
+
+.invitations,
+.friends{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.friends{
+    margin-top: 20px;
+}
+
+.invitations>.h,
+.friends>.h{
+    font-size: 25px;
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
+    border-bottom: 3px solid black;
+}
+
+.invitations__user,
+.friends__user{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+.invitations__user>a,
+.friends__user>a{
+    font-size: 18px;
+
+    width: 90%;
+    background: #C0C0C0;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 5px 5px 0px;
+}
+
+.friends__user>a:hover,
+.invitations__user>a:hover{
+    outline: 3px solid #e3e3e3;
+}
+
+.friends__user>a{
+    width: 95%;
+}
+
+.invitations__user>form>button,
+.friends__user>form>button,
+.invitations__user>form>input,
+.friends__user>form>input{
+    width: 49px;
+    padding: 11px 0px 11px 0px;
+    line-height: 0px;
+
+    font-weight: bold;
+
+    background-color: #C0C0C0;
+
+    border: 2px solid #EEEEEE;
+    border-right: 2px solid #919191;
+    border-bottom: 2px solid #919191;
+    box-shadow: inset 1px 1px 0 0 #BDBDBD,
+    1.2px 0 0 0 black,
+    0 1.2px 0 0 black,
+    1px 1px 0 0 black;
+
+    cursor: pointer;
+}
+
+.invitations__user>form>button:first-letter,
+.friends__user>form>button:first-letter,
+.invitations__user>form>input:first-letter,
+.friends__user>form>input:first-letter{
+    text-decoration: underline;
+}
+
+.invitations__user>form>button:active,
+.friends__user>form>button:active,
+.invitations__user>form>input:active,
+.friends__user>form>input:active{
+    font-size: 20.5px;
+    border: 2px solid #919191;
+    border-right: 2px solid #919191;
+    border-bottom: 2px solid #919191;
+    box-shadow: inset 1px 1px 0 0 #BDBDBD,
+    0px 0 0 0 #C0C0C0,
+    0 0px 0 0 #C0C0C0,
+    0px 0px 0 0 #C0C0C0;
+}
+
+.invitations__user>form:last-child,
+.friends__user>form:last-child{
+    margin-left: 3px;
+}
+
+.invitations__confirm>input{
+    display: none;
+}
+
+.friends__user-list>a{
+    width: 100%;
+    margin-right: 0px;
+}
